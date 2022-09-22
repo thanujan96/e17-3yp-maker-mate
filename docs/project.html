@@ -68,16 +68,16 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="https://github.com/cepdnaclk/e17-3yp-maker-mate">Repository</a></li>
           <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <!--
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          
+          <li class="dropdown"><a><span>Browse</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#need-analysis">Need Analysis</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -85,13 +85,18 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              </li> -->
+              <li><a href="#product-architecture">Architecture</a></li>
+              <li><a href="#project-components">Components</a></li>
+              <li><a href="#hardware-interface">Interfacing</a></li>
+              <li><a href="#frontend">Frontend & Backend</a></li>
+              <li><a href = "API">API Documentation</a></li>
+              <li><a href="#communication">Communication Architecture</a></li>
+              <li><a href="#testing">Software Testing</a></li>
+              <li><a href="#budget">Estimated Budget</a></li>
             </ul>
           </li>
-          -->
+          
           <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -102,28 +107,457 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs Section ======= -->
+    <!-- ======= Breadcrumbs Section ======= 
     <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
           <h2>Know all about Maker Mate Project</h2>
-          <!-- <ol>
+           <ol>
             <li><a href="index.html">Home</a></li>
             <li>Inner Page</li>
-          </ol> -->
+          </ol> 
         </div>
 
       </div>
-    </section><!-- End Breadcrumbs Section -->
+    </section> End Breadcrumbs Section -->
+    
+    <section id="about-project">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>About Maker Mate Project</h2>
+          <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
+        </div>
+        <div>
+          Maker Space is the new buiding of the Department of Computer Engineeering of University Peradeniya. 
+          To make the Maker Space more convenient for it's user the department had below given requirements. 
+          Our goal is to satisfy them.Therfore, our product is a client based, customized product.
+        </div>
+        
+      </div>
+      
+    </section>
 
-    <section class="inner-page pt-4">
-      <div class="container">
-        <div class="h4">Product architecture</div>
-        <div class="px-lg-5 align-content-center justify-content-center align-items-md-center">
-          <img src="assets/img/animations/product-architecture.gif" width="100%">
+    <section id="need-analysis">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Need analysis</h2>
+          <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
+        </div>
+        <div class="row centered-block">
+          <div class="col-sm-3 shadow-box item-box">
+            <img src="assets/img/general/need1.png" width="80%" style="padding: 20px 50px 10px 50px;">
+            <div class="info text-center"><u>Inventory Management</u></div>
+            <div class="info text-center mx-2"> A System to manage the Maker Space inventory online is required. 
+              The tools and equipments in the labotary need to be managed and monitored in a convenient and efficient way. 
+            </div>           
+          </div>
+          <div class="col-sm-3 shadow-box item-box">
+            <img src="assets/img/general/need2.jpg" width="80%" style="padding: 20px 50px 10px 50px;">
+            <div class="info text-center"><u>Apply online</u></div>
+            <div class="info text-center mx-2"> An online platform is required where, the students have the ability to apply for the inventory that they need for their project work. 
+              Also they should be able to submit their designs and get the approval from the department. 
+            </div> 
+          </div>
+          <div class="col-sm-3 shadow-box item-box">
+            <img src="assets/img/general/need3.jpg" width="80%" style="padding: 20px 50px 10px 50px;">
+            <div class="info text-center"><u>A navigator</u></div>
+            <div class="info text-center mx-2"> The navigator is to guide the users in the maker space. 
+              This must help them to save their time and work efficiently. 
+              And also it should show the route to their pickup locker for specific users.
+            </div>             
+          </div>
+          <div class="col-sm-3 shadow-box item-box">
+            <img src="assets/img/general/need4.jpg" width="80%" style="padding: 20px 50px 10px 50px;">
+            <div class="info text-center"><u>Online reservation</u></div>
+            <div class="info text-center mx-2"> The users must be able to reserve a place in maker space for project and experiment work in order to use the resources in the maker space. 
+              This should prevent the clashes and should inform the users about their time allocations. 
+            </div> 
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <section id="product-architecture">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Product architecture</h2>
+          <p>A simple animation to describe our product control flow</p>
+        </div>
+
+        <div class="row gy-4" style="display: block; text-align:center">
+          <div class="" style="display:inline-block">
+            <img src="assets/img/animations/product-architecture.gif" width="80%">
+          </div>
         </div>
       </div>
+      
+    </section>
+
+    <section id="conceptual-schema">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Conceptual Schema</h2>
+        </div>
+        <div class="ur" style="text-align: center">
+          <img src="assets\img\ur_diagram.jpg" width="80% align-items-center" >
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <section id="project-components">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Project Components</h2>
+          <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
+        </div>
+
+        <div class="row gy-4" style="display: block; text-align:center">
+          <div class="col-md-3 inline-block">  
+            <div id="item-img">
+              <img src="assets/img/items/rasp4B.jfif" alt="Raspberry Pi 4B" width="100%">
+            </div>
+            <div id="item-title">
+              Raspberry Pi 4B
+            </div>
+            <div id="item-desc"></div>
+          </div>
+        
+          <div class="col-md-3 inline-block">
+            <div id="item-img">
+              <img src="assets/img/items/15inchmonitor.jpg" alt='15" touch screen' width="100%">
+            </div>
+            <div id="item-title">
+              15" touch screen
+            </div>
+            <div id="item-desc"></div>
+          </div>
+        
+          <div class="col-md-3 inline-block">
+            <div id="item-img">
+              <img src="assets/img/items/solenoidlock.png" alt="Solenoid Lock" width="100%">
+            </div>
+            <div id="item-title">
+              Solenoid Lock
+            </div>
+            <div id="item-desc"></div>
+          </div>
+
+          <div class="col-md-3 inline-block">
+            <div id="item-img">
+              <img src="assets/img/items/ESP8266 ESP01s wifi relay.jpeg" alt="ESP 01S WiFi Relay" width="100%">
+            </div>
+            <div id="item-title">
+              ESP 01S WiFi Relay
+            </div>
+            <div id="item-desc"></div>
+          </div>
+
+          <div class="col-md-3 inline-block">
+            <div id="item-img">
+              <img src="assets/img/items/usonic.jpg" alt="Ultrasonic sensor" width="100%">
+            </div>
+            <div id="item-title">
+              Ultrasonic sensor
+            </div>
+            <div id="item-desc"></div>
+          </div>
+
+          <div class="col-md-3 inline-block">
+            <div id="item-img">
+              <img src="assets/img/items/esp01s.jpg" alt="Metallic keypad" width="100%">
+            </div>
+            <div id="item-title">
+              ESP8266 ESP-01S WiFi Module
+            </div>
+            <div id="item-desc"></div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="hardware-interface">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Hardware Interfacing</h2>
+          <p>How our hardware components interconnected and data transmitted</p>
+        </div>
+
+        <div class="row gy-4" style="display: block; text-align:center">
+          <div class="" style="display:inline-block">
+            <img src="assets/img/items/HardwareInterfacing-light.png" width="80%">
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="frontend">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Frontend Implementations</h2>
+          <p>User Interface implementations and functions available for maker space users.</p>
+          <br>
+
+          <h4>Students' UI</h4>
+          <p>Home Page</p>
+          <div class="" style="display: block; text-align:center" >
+            <img src="assets\img\ui\ui_1.png" width="60% align-items-center">
+          </div>
+          <p>Display account details</p>
+          <div class="" style="display: block; text-align:center" >
+            <img src="assets\img\ui\ui_2.png" width="60% align-items-center">
+          </div>            
+            <br>
+            <p><b>Functions available for Students</b></p>
+            <ul>
+              <li>Get details on components and equipments available in the laboratory</li>
+              <li>View their user details</li>
+              <li>Change the necessary account details like password, email, etc.</li>
+              <li>Checkout items that can borrow from laboratory</li>
+              <li>Create a cart including items that you wish to borrow with required quantities</li>
+              <li>Place a order with the selected items</li>
+            </ul><br>
+
+            <h4>Administrators' UI</h4>                   
+            <p><b>Functions available for Administrators</b></p>
+            <p>
+            <ul>
+              <li>View their user details</li>
+              <li>Change the necessary account details like password, email, etc.</li>
+              <li>Manage inventory</li>
+              <li>Add new components and equipments to the system</li>
+              <li>Check the orders applied by students</li>
+              <li>Accepting orders and allowing students to pick them up</li>
+            </ul></p>
+          </div> 
+        </div>           
+      </div>      
+    </section>
+
+    <section id="backend">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Backend Implementations</h2>
+          <p>
+          API calls are implemented to accessed by external origins like mobile app and information console<br>
+            <a href="API">Click here to view documentation</a>
+          </p>  
+
+        </div>
+      </div>          
+    </section>
+
+    <section id="communication">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          
+          <h2>Communication Architecture</h2>
+          <p>The below given diagram depicts the communication architecture behind the different nodes in our application. 
+            The HTTPs and MQTT was mainly used for that.</p><br>
+          <h4>Communication architecture between different nodes</h4> 
+          <div class="" style="display: block; text-align:center" >
+            <img src="assets\img\server\mqtt.png" width="80% align-items-center">
+          </div> <br>   
+          <div>
+            <p><b>What is MQTT?</b><br>
+            MQTT (MQ Telemetry Transport) is a lightweight open messaging protocol that provides resource-constrained network clients 
+            with a simple way to distribute telemetry information in low-bandwidth environments. The protocol, which employs a 
+            publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication.</p><br> 
+        
+            <p><b>What is QoS?</b><br>
+            Quality of Service (QoS) in MQTT messaging is an agreement between sender and receiver on the guarantee of delivering a 
+            message. There are three levels of QoS :</p>
+            <p>
+              <ul>
+                <li>0 - at most once</li>
+                <li>1 - at least once</li>
+                <li>2- exactly once</li>
+              </ul>
+            </p><br>
+
+            <P>When a client (e.g. a remote IoT device) is publishing to a broker, the client determines the QoS level for that message. When 
+            the broker sends the message to a subscribing client, the QoS set by the first client for that message is used again.So 
+            effectively the original publisher of any message determines the QoS of the message all the way to the final recipients.</p><br>            
+        
+            <p>QoS is a key feature of the MQTT protocol. QoS gives the client the power to choose a level of service that matches its
+            network reliability and application logic. Because MQTT manages the re-transmission of messages and guarantees delivery 
+            (even when the underlying transport is not reliable), QoS makes communication in unreliable networks a lot easier.</p><br>
+
+           <p><i>For our application we need to receive all messages exactly once and the duplicate delivery can harm the functioning of 
+            application. Therefore, we used QoS = 2,</i> as it is the highest level of service in MQTT and it ensure the property that 
+            messages are received only once by the intended recipients. Eventhough it is the safest, QoS 2 interaction takes more 
+            time to complete. The guarantee is provided by at least two request/response flows (a four-part handshake) 
+            between the sender and the receiver. The sender and receiver use the packet identifier of the original PUBLISH message 
+            to coordinate delivery of the message.</p><br>
+
+            <p>Therefore, with the integration of HTTPS and MQTT the functioning of Information Console was implemented.</p>
+          </div>         
+          
+        </div>
+      </div>          
+    </section>
+    
+    <section id="testing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Testing</h2>
+          <h3>Software Testing</h3>
+
+          <div>
+            <p>The software testing of our product required, basically two steps,
+            <ul>
+              <li>Authentication Testing</li>
+              <li>Functionality Testing</li>
+              <p>In testing the functioning of our product, we need to test both the Information console and Inventory 
+                Management system. This will ensure the proper functioning of them and it helps us to fix the errors.</p>
+            </ul>
+            </p>
+          </div>
+          <div>
+            <p><b>Tools and Softwares used in testing</b></p>
+            <ul>
+              <li><div class="" style="display:inline-block">
+                <img src="assets/img/api/postman.png" width="80%"></div> 
+              </li>
+              <p>This is an application used for API testing. In our application we used it in testing the API calls that 
+                required for functioning of Mobile app and Information Console. It was easy to tests HTTP requests, as it 
+                is with a graphical user interface, through which we obtain different types of responses that need to be 
+                subsequently validated. It also offers many endpoint interaction methods(GET, POST, PUT, DELETE) and it 
+                has the possibility to create different testing environments that made our work easy. Futher, it helps us
+                optimize our time when executing tests.
+              </p><br>       
+              <li><div class="" style="display:inline-block">
+                <img src="assets/img/tech-stack/laravel-logo-png.png" width="20%"></div> 
+              </li>
+              <p>Laravel Unit-Testing</p>
+              <p>In Laravel, there are two ways to test your application. One is with Unit testing while other is with 
+                Feature testing. Unit testing allows us to test classes models, controllers etc, while Feature testing 
+                enables to test the code base. This testing ensures that each and every component of the application 
+                passes from the standard testing process and application doesn’t go broken for deployment. 
+                Also this is really fast and easy to handle.</p><br> 
+            </ul>
+          </div>
+
+        </div>        
+      </div>
+      
+    </section>
+
+    <section id="budget">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Budget</h2>
+          <p>We have estimated a budget according to the Sri Lankan market and with dollar to lkr conversion</p>
+        </div>
+
+        <div class="table-responsive-sm shadow-box">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col" class=" text-center">#</th>
+                <th scope="col" class=" text-center">Component</th>
+                <th scope="col" class=" text-center">Unit Price (LKR)</th>
+                <th scope="col" class=" text-center">Quantity</th>
+                <th scope="col" class=" text-center">Amount (LKR)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center">
+                <th scope="row">1</th>
+                <td>Raspberry Pi 4B 2GB/4GB</td>
+                <td><a href="https://microchip.lk/product-category/embedded-solution/raspberi-pi/mother-board/">9,250.00 - 14,650.00</a></td>
+                <td>1</td>
+                <td>9,250.00 - 14,650.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">2</th>
+                <td>7"-15" Capacitive Touch Screen</td>
+                <td><a href="https://microchip.lk/product/7-inch-raspberry-pi-3-b-touch-screen-1024600-7-0-inch-ips-capacitive-touch-screen-lcd-hdmi-interface/">11,700.00</a> - <a href="https://www.amazon.co.uk/Waveshare-Universal-1920×1080-Connectivity-Capacitive/dp/B07S2YN4DZ">60,000.00</a></td>
+                <td>1</td>
+                <td>11,700.00 - 60,000.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">3</th>
+                <td>Ultrasonic Sensor</td>
+                <td><a href="https://microchip.lk/product/hc-sr04-ultrasonic-distance-measuring-sensor-module-for-arduino/">250.00</a></td>
+                <td>1</td>
+                <td>250.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">4</th>
+                <td>ESP-01S WiFi Relay Module</td>
+                <td><a href="https://microchip.lk/product/esp8266-esp01-5v-wifi-relay-module-without-esp8266/">365.00</a></td>
+                <td>1</td>
+                <td>365.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">5</th>
+                <td>Solenoid Lock 12V</td>
+                <td><a href="https://www.duino.lk/Electromagnetic-Door-Lock-12VDC?search=lock&category_id=0">890.00</a></td>
+                <td>1</td>
+                <td>890.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">6</th>
+                <td>ASP8266 ESP-01s WiFi Module</td>
+                <td><a href="https://tronic.lk/product/esp8266-esp-01s-serial-wifi-wireless-module">380.00</a></td>
+                <td>1</td>
+                <td>380.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">7</th>
+                <td>Raspberry PI 4 Power Supply AC 100-240V DC 5V 3A</td>
+                <td><a href="https://www.duino.lk/Raspberry-PI4-Power-Supply-AC-100-240V-DC-5V-3A-Type-C?search=power%20adapter&category_id=0">675.00</a></td>
+                <td>1</td>
+                <td>675.00</td>
+              </tr>
+
+              <tr class="text-center">
+                <th scope="row">8</th>
+                <td>Power Supply Adapter 3 PIN AC/DC 12V 2A</td>
+                <td><a href="https://www.duino.lk/Power-Supply-Adapter-3-PIN-AC-DC-12V-2A?search=power%20adapter&category_id=0">420.00</a></td>
+                <td>1</td>
+                <td>420.00</td>
+              </tr>
+              
+              <tr class="text-center">
+                <th scope="row">9</th>
+                <td>Others *</td>
+                <td>-</td>
+                <td>-</td>
+                <td>5000.00 *</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th scope="col" class=" text-center">#</th>
+                <th scope="col" class=" text-center">Total</th>
+                <th scope="col" class=" text-center">-</th>
+                <th scope="col" class=" text-center">-</th>
+                <th scope="col" class=" text-center">28,930.00 - 82,630.00</th>
+              </tr>
+            </thead>
+            
+          </table>
+          <div>
+            * This includes the circuitry requirements like wires, serial cables, LEDs and mostly depends on our purchase of other items.<br>
+            Cost for the key pad has been removed as we use randomized keyboard inputs onscreen.
+          </div>
+        </div>
+      </div>
+      
     </section>
 
   </main><!-- End #main -->
